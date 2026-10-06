@@ -40,67 +40,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
-## SaaS/Hosted Platforms
-
-
-
-- **[Amazon Kinesis Firehose](https://aws.amazon.com/kinesis/data-firehose/)**  
-
-  **AWS's fully managed streaming delivery service** — load data into S3, Redshift, OpenSearch, and Splunk without managing infrastructure. **Best for AWS-native streaming ingestion** .
-
-
-
-- **[Confluent Cloud](https://www.confluent.io/confluent-cloud/)**  
-
-  **The leading managed Kafka platform** — ksqlDB, Flink, connectors, and schema registry. **Best for enterprise event streaming** .
-
-
-
-- **[Google Cloud Dataflow](https://cloud.google.com/dataflow)**  
-
-  **Google's fully managed stream and batch processing** based on Apache Beam. **Best for unified batch/stream pipelines** .
-
-
-
-- **[Databricks Auto Loader](https://www.databricks.com/)**  
-
-  **Incremental data ingestion for lakehouses** — automatically detects and processes new files. **Best for Databricks lakehouse ingestion** .
-
-
-
-- **[Azure Event Hubs Capture](https://azure.microsoft.com/en-us/products/event-hubs/)**  
-
-  **Azure's event streaming with automatic capture** to Blob Storage and Azure Data Lake. **Best for Azure-native streaming** .
-
-
-
-- **[Striim](https://www.striim.com/)**  
-
-  **Real-time data integration and streaming analytics** — CDC, database replication, and cloud migration. **Best for enterprise real-time pipelines** .
-
-
-
-- **[Redpanda Cloud](https://redpanda.com/)**  
-
-  **Kafka-compatible streaming platform** with no Zookeeper or JVM. **Best for high-performance streaming** .
-
-
-
-- **[Hevo Data](https://hevodata.com/)**  
-
-  **No-code data pipeline platform** — 150+ connectors with automatic schema mapping. **Best for no-code ETL** .
-
-
-
-- **[Airbyte Cloud](https://airbyte.com/)**  
-
-  **Managed version of the leading open-source ELT platform** — 300+ connectors. **Best for open-source ELT with managed convenience** .
-
-
-
-- **[Fivetran](https://www.fivetran.com/)**  
-
-  **The leading managed ELT platform** — 500+ connectors with automatic schema evolution. **Best for enterprise ELT** .
+| Product | Description | Best For | Specific Pricing | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Amazon Kinesis Firehose](https://aws.amazon.com/kinesis/data-firehose/)** | AWS's fully managed streaming delivery service — load data into S3, Redshift, OpenSearch, and Splunk without managing infrastructure. | AWS-native streaming ingestion | $0.029 per GB ingested (first 500 TB/mo, Direct PUT/KDS in 5KB increments) | Pay-as-you-go; no permanent free tier. $200 credit via 30-day AWS Free Tier |
+| **[Confluent Cloud](https://www.confluent.io/confluent-cloud/)** | The leading managed Kafka platform — ksqlDB, Flink, connectors, and schema registry. | Enterprise event streaming | $0 base cost for Basic clusters (scales to zero; pay per eCKU capacity + data transfer) | 30-day free trial with $400 free credits |
+| **[Google Cloud Dataflow](https://cloud.google.com/dataflow)** | Google's fully managed stream and batch processing based on Apache Beam. | Unified batch/stream pipelines | $0.069 per vCPU-hr & $0.0092 per GB-hr (us-central1 streaming workers) | $300 free credits via 90-day GCP Free Trial |
+| **[Databricks Auto Loader](https://www.databricks.com/)** | Incremental data ingestion for lakehouses — automatically detects and processes new files. | Databricks lakehouse ingestion | $0.15 per DBU (Data Engineering workload compute) | 14-day free trial with $400 credits; or non-commercial Free Edition (daily quota capped) |
+| **[Azure Event Hubs Capture](https://azure.microsoft.com/en-us/products/event-hubs/)** | Azure's event streaming with automatic capture to Blob Storage and Azure Data Lake. | Azure-native streaming | $0.028 per 1M ingress events + $0.015/hr per Throughput Unit (Basic tier) | $200 free credit via 30-day Azure Free Account |
+| **[Striim](https://www.striim.com/)** | Real-time data integration and streaming analytics — CDC, database replication, and cloud migration. | Enterprise real-time pipelines | ~$0.50 - $0.60 per vCPU hour + $0.10/GB data transfer | Striim Developer tier: free up to 25 million events per month |
+| **[Redpanda Cloud](https://redpanda.com/)** | Kafka-compatible streaming platform with no Zookeeper or JVM. | High-performance streaming | $0.10/cluster-hr + $0.045/GB written + $0.04/GB read (Serverless) | 30-day free trial with $100 free credits (Serverless) |
+| **[Hevo Data](https://hevodata.com/)** | No-code data pipeline platform — 150+ connectors with automatic schema mapping. | No-code ETL | $299/month (Starter tier, up to 5M events/month) | Free plan: up to 1 million events per month (1-hour sync, free connectors) |
+| **[Airbyte Cloud](https://airbyte.com/)** | Managed version of the leading open-source ELT platform — 300+ connectors. | Open-source ELT with managed convenience | $10/month starting base plan ($2.50 per credit overage) | 30-day free trial |
+| **[Fivetran](https://www.fivetran.com/)** | The leading managed ELT platform — 500+ connectors with automatic schema evolution. | Enterprise ELT | $5 minimum base fee per connection/month + usage-based MAR rate | Free plan: up to 500,000 Monthly Active Rows (MAR) per month; plus 14-day free trial |
 
 
 
