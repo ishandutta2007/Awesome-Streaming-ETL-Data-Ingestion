@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="flowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.8" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 46px;
+      fill: url(#textGrad);
+    }
+    .subtitle {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      fill: #94a3b8;
+    }
+    .badge-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #e2e8f0;
+    }
+    .stream-line {
+      stroke: url(#flowGrad);
+      stroke-width: 3;
+      fill: none;
+      stroke-dasharray: 12 8;
+      animation: streamFlow 20s linear infinite;
+    }
+    .pulse-node {
+      animation: pulse 3s ease-in-out infinite alternate;
+    }
+    @keyframes streamFlow {
+      0% { stroke-dashoffset: 1000; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes pulse {
+      0% { transform: scale(0.98); opacity: 0.7; }
+      100% { transform: scale(1.02); opacity: 1; }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bgGrad)" rx="16" />
+
+  <!-- Animated Dynamic Background Pipelines (Behind text) -->
+  <g opacity="0.35">
+    <path d="M -50 60 Q 300 120, 600 50 T 1250 80" class="stream-line" />
+    <path d="M -50 240 Q 400 180, 700 250 T 1250 220" class="stream-line" style="animation-duration: 15s; stroke-width: 2;" />
+    <path d="M -50 150 Q 200 280, 800 120 T 1250 170" class="stream-line" style="animation-duration: 25s; stroke-width: 4;" />
+  </g>
+
+  <!-- Decorative Abstract Data Nodes (Right Side Background element) -->
+  <g transform="translate(920, 70)" class="pulse-node" opacity="0.85">
+    <rect x="0" y="0" width="210" height="160" rx="12" fill="#1e293b" stroke="#334155" stroke-width="2" />
+    <text x="20" y="35" fill="#38bdf8" font-family="sans-serif" font-weight="bold" font-size="14">⚡ REAL-TIME PIPELINE</text>
+    <path d="M 20 60 L 190 60" stroke="#475569" stroke-width="1.5" stroke-dasharray="4 4" />
+    <circle cx="40" cy="90" r="10" fill="#0ea5e9" />
+    <circle cx="105" cy="90" r="10" fill="#a855f7" />
+    <circle cx="170" cy="90" r="10" fill="#ec4899" />
+    <path d="M 50 90 L 95 90 M 115 90 L 160 90" stroke="#cbd5e1" stroke-width="2" />
+    <text x="25" y="130" fill="#94a3b8" font-family="sans-serif" font-size="12">Source ➔ Engine ➔ Lake</text>
+  </g>
+
+  <!-- Foreground Title and Subtitle -->
+  <g transform="translate(60, 110)">
+    <!-- Pill Badge -->
+    <g transform="translate(0, -55)">
+      <rect x="0" y="0" width="240" height="30" rx="15" fill="#1e293b" stroke="#818cf8" stroke-width="1.5" />
+      <text x="15" y="19" class="badge-text">🚀 AWESOME DATA INGESTION</text>
+    </g>
+    
+    <text x="0" y="25" class="title" filter="url(#glow)">Awesome Streaming ETL &amp; Data Ingestion</text>
+    <text x="0" y="65" class="subtitle">Curated Guide to Real-Time Data Pipelines, CDC, &amp; Event Streaming</text>
+    
+    <g transform="translate(0, 100)">
+      <rect x="0" y="0" width="130" height="28" rx="6" fill="#0284c7" />
+      <text x="14" y="18" class="badge-text">⚡ Real-Time</text>
+
+      <rect x="142" y="0" width="130" height="28" rx="6" fill="#7c3aed" />
+      <text x="15" y="18" class="badge-text" transform="translate(142,0)">🔄 CDC Sync</text>
+
+      <rect x="284" y="0" width="140" height="28" rx="6" fill="#db2777" />
+      <text x="15" y="18" class="badge-text" transform="translate(284,0)">📊 Open-Source</text>
+    </g>
+  </g>
+</svg>
