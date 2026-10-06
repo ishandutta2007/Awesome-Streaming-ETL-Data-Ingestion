@@ -59,13 +59,13 @@
 ### 🌊 Event Streaming Platforms
 
 - **[Apache Kafka](https://github.com/apache/kafka)** [<img src="https://img.shields.io/github/stars/apache/kafka?style=social&color=white" alt="Apache Kafka Stars"/>](https://github.com/apache/kafka/stargazers)  
-  **The de facto standard for event streaming**, Apache-2.0 licensed with 28,000+ GitHub stars. Distributed, fault-tolerant, high-throughput pub/sub messaging. **Kafka Connect for source/sink connectors** and **Kafka Streams for stream processing**. The foundation for enterprise streaming architectures.
+  **The de facto standard for event streaming**, Apache-2.0 licensed with 28,000+ GitHub_Stars. Distributed, fault-tolerant, high-throughput pub/sub messaging. **Kafka Connect for source/sink connectors** and **Kafka Streams for stream processing**. The foundation for enterprise streaming architectures.
 
 - **[NATS](https://github.com/nats-io/nats-server)** [<img src="https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white" alt="NATS Stars"/>](https://github.com/nats-io/nats-server/stargazers)  
-  **Cloud-native messaging system**, Apache-2.0 licensed with 16,000+ GitHub stars. Lightweight, ultra-high-performance pub/sub with JetStream for persistence. Best for microservices, IoT, and edge streaming.
+  **Cloud-native messaging system**, Apache-2.0 licensed with 16,000+ GitHub_Stars. Lightweight, ultra-high-performance pub/sub with JetStream for persistence. Best for microservices, IoT, and edge streaming.
 
 - **[Apache Pulsar](https://github.com/apache/pulsar)** [<img src="https://img.shields.io/github/stars/apache/pulsar?style=social&color=white" alt="Apache Pulsar Stars"/>](https://github.com/apache/pulsar/stargazers)  
-  **Distributed messaging and streaming platform**, Apache-2.0 licensed with 14,000+ GitHub stars. Multi-tenancy, geo-replication, and tiered storage architecture.
+  **Distributed messaging and streaming platform**, Apache-2.0 licensed with 14,000+ GitHub_Stars. Multi-tenancy, geo-replication, and tiered storage architecture.
 
 - **[Redpanda](https://github.com/redpanda-data/redpanda)** [<img src="https://img.shields.io/github/stars/redpanda-data/redpanda?style=social&color=white" alt="Redpanda Stars"/>](https://github.com/redpanda-data/redpanda/stargazers)  
   **Kafka-compatible streaming platform in C++**, BSL licensed. No Zookeeper, no JVM — simpler operations and ultra-low latency streaming.
@@ -75,60 +75,60 @@
 ### ⚙️ Stream Processing Engines
 
 - **[Apache Spark](https://github.com/apache/spark)** [<img src="https://img.shields.io/github/stars/apache/spark?style=social&color=white" alt="Apache Spark Stars"/>](https://github.com/apache/spark/stargazers)  
-  **Unified engine for large-scale data processing**, Apache-2.0 licensed with 40,000+ GitHub stars. Features **Structured Streaming** for micro-batch and continuous processing with exactly-once guarantees.
+  **Unified engine for large-scale data processing**, Apache-2.0 licensed with 40,000+ GitHub_Stars. Features **Structured Streaming** for micro-batch and continuous processing with exactly-once guarantees.
 
 - **[Apache Flink](https://github.com/apache/flink)** [<img src="https://img.shields.io/github/stars/apache/flink?style=social&color=white" alt="Apache Flink Stars"/>](https://github.com/apache/flink/stargazers)  
-  **The de facto standard for stateful stream processing**, Apache-2.0 licensed with 24,000+ GitHub stars. Low-latency, event-time stream processing with savepoints and state management.
+  **The de facto standard for stateful stream processing**, Apache-2.0 licensed with 24,000+ GitHub_Stars. Low-latency, event-time stream processing with savepoints and state management.
 
 - **[Apache Beam](https://github.com/apache/beam)** [<img src="https://img.shields.io/github/stars/apache/beam?style=social&color=white" alt="Apache Beam Stars"/>](https://github.com/apache/beam/stargazers)  
-  **Unified programming model for batch and streaming pipelines**, Apache-2.0 licensed with 7,000+ GitHub stars. Runs portably across Flink, Spark, Dataflow, and Samza execution engines.
+  **Unified programming model for batch and streaming pipelines**, Apache-2.0 licensed with 7,000+ GitHub_Stars. Runs portably across Flink, Spark, Dataflow, and Samza execution engines.
 
 - **[ksqlDB](https://github.com/confluentinc/ksql)** [<img src="https://img.shields.io/github/stars/confluentinc/ksql?style=social&color=white" alt="ksqlDB Stars"/>](https://github.com/confluentinc/ksql/stargazers)  
-  **Streaming SQL engine for Apache Kafka**, Confluent Community License with 5,600+ GitHub stars. Enables building stream processing applications using familiar SQL syntax.
+  **Streaming SQL engine for Apache Kafka**, Confluent Community License with 5,600+ GitHub_Stars. Enables building stream processing applications using familiar SQL syntax.
 
 - **[Bytewax](https://github.com/bytewax/bytewax)** [<img src="https://img.shields.io/github/stars/bytewax/bytewax?style=social&color=white" alt="Bytewax Stars"/>](https://github.com/bytewax/bytewax/stargazers)  
-  **Python stream processing framework** powered by a Rust execution engine, Apache-2.0 licensed with 2,500+ GitHub stars. Ideal for AI/ML real-time feature engineering.
+  **Python stream processing framework** powered by a Rust execution engine, Apache-2.0 licensed with 2,500+ GitHub_Stars. Ideal for AI/ML real-time feature engineering.
 
 - **[RisingWave](https://github.com/risingwavelabs/risingwave)** [<img src="https://img.shields.io/github/stars/risingwavelabs/risingwave?style=social&color=white" alt="RisingWave Stars"/>](https://github.com/risingwavelabs/risingwave/stargazers)  
-  **Distributed SQL streaming database**, Apache-2.0 licensed with 7,500+ GitHub stars. Simplifies stream processing by serving incremental materialized views using SQL.
+  **Distributed SQL streaming database**, Apache-2.0 licensed with 7,500+ GitHub_Stars. Simplifies stream processing by serving incremental materialized views using SQL.
 
 ---
 
 ### 🔄 Change Data Capture (CDC)
 
 - **[Debezium](https://github.com/debezium/debezium)** [<img src="https://img.shields.io/github/stars/debezium/debezium?style=social&color=white" alt="Debezium Stars"/>](https://github.com/debezium/debezium/stargazers)  
-  **The leading open-source CDC platform**, Apache-2.0 licensed with 11,000+ GitHub stars. Captures row-level database changes from PostgreSQL, MySQL, MongoDB, Oracle, and SQL Server into Kafka or Pulsar.
+  **The leading open-source CDC platform**, Apache-2.0 licensed with 11,000+ GitHub_Stars. Captures row-level database changes from PostgreSQL, MySQL, MongoDB, Oracle, and SQL Server into Kafka or Pulsar.
 
 - **[Canal](https://github.com/alibaba/canal)** [<img src="https://img.shields.io/github/stars/alibaba/canal?style=social&color=white" alt="Canal Stars"/>](https://github.com/alibaba/canal/stargazers)  
-  **Alibaba's MySQL binlog incremental subscription platform**, Apache-2.0 licensed with 23,000+ GitHub stars. Widely used for database replication and real-time syncing.
+  **Alibaba's MySQL binlog incremental subscription platform**, Apache-2.0 licensed with 23,000+ GitHub_Stars. Widely used for database replication and real-time syncing.
 
 - **[Maxwell](https://github.com/zendesk/maxwell)** [<img src="https://img.shields.io/github/stars/zendesk/maxwell?style=social&color=white" alt="Maxwell Stars"/>](https://github.com/zendesk/maxwell/stargazers)  
-  **Lightweight MySQL CDC daemon**, Apache-2.0 licensed with 3,700+ GitHub stars. Reads MySQL binlogs and writes JSON events to Kafka, Kinesis, RabbitMQ, or NATS.
+  **Lightweight MySQL CDC daemon**, Apache-2.0 licensed with 3,700+ GitHub_Stars. Reads MySQL binlogs and writes JSON events to Kafka, Kinesis, RabbitMQ, or NATS.
 
 - **[PeerDB](https://github.com/PeerDB-io/peerdb)** [<img src="https://img.shields.io/github/stars/PeerDB-io/peerdb?style=social&color=white" alt="PeerDB Stars"/>](https://github.com/PeerDB-io/peerdb/stargazers)  
-  **Fast Postgres-first CDC & data movement platform**, ELv2 licensed with 2,100+ GitHub stars. Optimized for high-throughput Postgres CDC to data warehouses.
+  **Fast Postgres-first CDC & data movement platform**, ELv2 licensed with 2,100+ GitHub_Stars. Optimized for high-throughput Postgres CDC to data warehouses.
 
 ---
 
 ### 🔀 ELT & Data Integration
 
 - **[Vector](https://github.com/vectordotdev/vector)** [<img src="https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white" alt="Vector Stars"/>](https://github.com/vectordotdev/vector/stargazers)  
-  **High-performance observability data pipeline**, MPL-2.0 licensed with 19,000+ GitHub stars. Written in Rust for ultra-fast log, metric, and event ingestion.
+  **High-performance observability data pipeline**, MPL-2.0 licensed with 19,000+ GitHub_Stars. Written in Rust for ultra-fast log, metric, and event ingestion.
 
 - **[Airbyte](https://github.com/airbytehq/airbyte)** [<img src="https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white" alt="Airbyte Stars"/>](https://github.com/airbytehq/airbyte/stargazers)  
-  **The leading open-source ELT platform**, MIT licensed with 16,000+ GitHub stars. Offers 300+ pre-built connectors for databases, SaaS applications, and warehouses.
+  **The leading open-source ELT platform**, MIT licensed with 16,000+ GitHub_Stars. Offers 300+ pre-built connectors for databases, SaaS applications, and warehouses.
 
 - **[Benthos / Redpanda Connect](https://github.com/redpanda-data/connect)** [<img src="https://img.shields.io/github/stars/redpanda-data/connect?style=social&color=white" alt="Benthos Stars"/>](https://github.com/redpanda-data/connect/stargazers)  
-  **High-performance code-free stream processor**, Apache-2.0 licensed with 8,500+ GitHub stars. Declarative YAML pipelines for streaming transformation and routing.
+  **High-performance code-free stream processor**, Apache-2.0 licensed with 8,500+ GitHub_Stars. Declarative YAML pipelines for streaming transformation and routing.
 
 - **[Apache SeaTunnel](https://github.com/apache/seatunnel)** [<img src="https://img.shields.io/github/stars/apache/seatunnel?style=social&color=white" alt="Apache SeaTunnel Stars"/>](https://github.com/apache/seatunnel/stargazers)  
-  **Next-generation high-performance data integration platform**, Apache-2.0 licensed with 7,000+ GitHub stars. Supports real-time streaming & batch synchronization.
+  **Next-generation high-performance data integration platform**, Apache-2.0 licensed with 7,000+ GitHub_Stars. Supports real-time streaming & batch synchronization.
 
 - **[Apache NiFi](https://github.com/apache/nifi)** [<img src="https://img.shields.io/github/stars/apache/nifi?style=social&color=white" alt="Apache NiFi Stars"/>](https://github.com/apache/nifi/stargazers)  
-  **Visual data flow automation and routing platform**, Apache-2.0 licensed with 4,500+ GitHub stars. Enterprise drag-and-drop ingestion management.
+  **Visual data flow automation and routing platform**, Apache-2.0 licensed with 4,500+ GitHub_Stars. Enterprise drag-and-drop ingestion management.
 
 - **[Meltano](https://github.com/meltano/meltano)** [<img src="https://img.shields.io/github/stars/meltano/meltano?style=social&color=white" alt="Meltano Stars"/>](https://github.com/meltano/meltano/stargazers)  
-  **CLI-first open-source ELT platform built on Singer**, MIT licensed with 4,000+ GitHub stars. Declarative data integration for software engineering teams.
+  **CLI-first open-source ELT platform built on Singer**, MIT licensed with 4,000+ GitHub_Stars. Declarative data integration for software engineering teams.
 
 ---
 
